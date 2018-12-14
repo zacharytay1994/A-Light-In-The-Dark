@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "109a5eb7-d20d-4b59-ae62-000cbf82bb3f",
+            "Value": {
+                "id": "6124b1b5-9918-4690-b4d0-7fb8946d420b",
+                "resourcePath": "sprites\\spr_carpark_walls\\spr_carpark_walls.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "16200cec-5c91-44f7-a728-e38128e18cd1",
             "Value": {
                 "id": "785d6cae-0d1c-4630-9082-4ac165097d07",
@@ -100,6 +108,14 @@
                 "id": "81db8c70-7bad-4d1e-8e28-193131b68a6e",
                 "resourcePath": "views\\3bcb0320-9bb1-489e-8bc8-960c0a01b261.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4330d4ac-b207-4e18-8738-28c5f65a75ee",
+            "Value": {
+                "id": "a3f43d92-49fd-484e-bcff-d36493697e0b",
+                "resourcePath": "tilesets\\t_carpark_wall\\t_carpark_wall.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -155,6 +171,14 @@
             "Value": {
                 "id": "5eaa0c03-3b8a-4402-93ca-0b2aece9f0db",
                 "resourcePath": "views\\61382de5-e7ef-4fe7-af4c-3961ff632eb1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "61a75f6b-238b-4f59-a012-a93175f4510e",
+            "Value": {
+                "id": "8e247a87-05a3-4d32-951a-87b12c466a0c",
+                "resourcePath": "views\\61a75f6b-238b-4f59-a012-a93175f4510e.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -252,6 +276,14 @@
                 "id": "25d9218d-5c61-49ea-9698-d7527bdc66f3",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c9095dce-f2b3-4b97-b5da-3a342d1f24f1",
+            "Value": {
+                "id": "a2bc9b4c-449c-4673-9645-7dcb483958ac",
+                "resourcePath": "sprites\\spr_temp\\spr_temp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

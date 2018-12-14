@@ -1,3 +1,6 @@
+x = clamp(x, 128, room_width-160);
+y = clamp(y, 128, room_height-160);
+
 var _x_input = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 var _y_input = keyboard_check(ord("S")) - keyboard_check(ord("W"))
 
