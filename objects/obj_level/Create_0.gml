@@ -3,11 +3,10 @@ randomize()
 
 // Easy change variables
 var _player_start_x = 50
-var _player_start_y = 50
+var _player_start_y = 80
 
 // Map Generation
 var _floor_id = layer_tilemap_get_id("Floor")
-var _carpark_wall_id = layer_tilemap_get_id("Wall")
 
 width_ = room_width div CELL_DIMENSION
 height_ = room_height div CELL_DIMENSION
@@ -22,12 +21,10 @@ var _controller_y = 48
 
 // Create control room
 // Base floor generation
-s_create_room(grid_, _controller_x, _controller_y, _floor_id, 6, 6, 1)
-
 
 instance_create_layer(_player_start_x * CELL_DIMENSION,
 _player_start_y * CELL_DIMENSION, "Instances", obj_player_origin)
-instance_create_layer(_player_start_y * CELL_DIMENSION + 31,
+instance_create_layer(_player_start_x * CELL_DIMENSION + 31,
 _player_start_y * CELL_DIMENSION + 56, "Instances", obj_player)
 
 for (var _y = 1; _y < height_-1; _y++)
