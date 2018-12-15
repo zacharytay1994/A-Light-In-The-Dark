@@ -19,6 +19,7 @@ if (_x_input == 1)
 {
 	if move_h == true
 	{
+		camera_state_ = 1
 		image_xscale = 1
 		sprite_index = sprite_array[2]
 		move_h = false
@@ -28,6 +29,7 @@ else if (_x_input == -1)
 {
 	if move_h == true
 	{
+		camera_state_ = 2
 		image_xscale = -1
 		sprite_index = sprite_array[2]
 		move_h = false
@@ -38,6 +40,7 @@ if (_y_input == -1)
 {
 	if move_v == true
 	{
+		camera_state_ = 3
 		sprite_index = sprite_array[1]
 		move_v = false
 	}
@@ -46,7 +49,13 @@ else if (_y_input == 1)
 {
 	if move_v == true
 	{
+		camera_state_ = 4
 		sprite_index = sprite_array[0]
 		move_v = false
 	}
+}
+
+if (_x_input == 0 && _y_input == 0)
+{
+	camera_state_ = 0
 }

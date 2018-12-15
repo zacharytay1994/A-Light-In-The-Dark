@@ -8,9 +8,17 @@ var _player_start_y = 80
 building_visible_ = 6
 building_visible_clear_ = building_visible_ + 1
 
+target_ = obj_player
+
+in_building_bool_ = false
+default_wall_ = 1
+default_roof_ = 15
+default_pillar_ = 14
+
 // Map Generation
 buildingaes_id_ = layer_tilemap_get_id("BuildingWallsAes")
 roomboundary_id_ = layer_tilemap_get_id("RoomBoundary")
+floor_id_ = layer_tilemap_get_id("Floor")
 
 width_ = room_width div CELL_DIMENSION
 height_ = room_height div CELL_DIMENSION

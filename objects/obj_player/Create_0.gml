@@ -3,6 +3,7 @@ speed_ = 3
 
 move_h = false
 move_v = false
+camera_state_ = 0
 
 sprite_array[0] = spr_player_front
 sprite_array[1] = spr_player_back
