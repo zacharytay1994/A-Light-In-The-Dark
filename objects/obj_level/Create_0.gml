@@ -5,8 +5,12 @@ randomize()
 var _player_start_x = 50
 var _player_start_y = 80
 
+building_visible_ = 6
+building_visible_clear_ = building_visible_ + 1
+
 // Map Generation
-var _floor_id = layer_tilemap_get_id("Floor")
+buildingaes_id_ = layer_tilemap_get_id("BuildingWallsAes")
+roomboundary_id_ = layer_tilemap_get_id("RoomBoundary")
 
 width_ = room_width div CELL_DIMENSION
 height_ = room_height div CELL_DIMENSION

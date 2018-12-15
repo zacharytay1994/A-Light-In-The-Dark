@@ -1,14 +1,14 @@
 {
-    "id": "109a5eb7-d20d-4b59-ae62-000cbf82bb3f",
+    "id": "099b1298-a2f2-4e77-9a41-1e18674dfd43",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_carpark_walls",
+    "name": "spr_building_aesthetics_walls",
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 191,
-    "bbox_left": 0,
-    "bbox_right": 95,
+    "bbox_bottom": 31,
+    "bbox_left": 32,
+    "bbox_right": 127,
     "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
@@ -16,37 +16,37 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "82c0ae6e-feb7-462e-8e14-e3f5227a5057",
+            "id": "a473ca0e-15bb-4575-a8ca-bf073c5aeba8",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "109a5eb7-d20d-4b59-ae62-000cbf82bb3f",
+            "SpriteId": "099b1298-a2f2-4e77-9a41-1e18674dfd43",
             "compositeImage": {
-                "id": "1dd097e7-60d4-4579-a133-154c3f56c261",
+                "id": "d8401b57-6d10-425c-9d05-36a8bf4cd647",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "82c0ae6e-feb7-462e-8e14-e3f5227a5057",
+                "FrameId": "a473ca0e-15bb-4575-a8ca-bf073c5aeba8",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "e7138a21-aa7b-44e3-99bc-75a36f8fa50f",
+                    "id": "9ef7f735-9f85-4df6-bf3a-13cb2525adca",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "82c0ae6e-feb7-462e-8e14-e3f5227a5057",
-                    "LayerId": "ad800e44-1548-4456-8e35-9cacfb0ff228"
+                    "FrameId": "a473ca0e-15bb-4575-a8ca-bf073c5aeba8",
+                    "LayerId": "65157a76-f822-4aa7-8feb-857836cc571c"
                 }
             ]
         }
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 192,
+    "height": 32,
     "layers": [
         {
-            "id": "ad800e44-1548-4456-8e35-9cacfb0ff228",
+            "id": "65157a76-f822-4aa7-8feb-857836cc571c",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "109a5eb7-d20d-4b59-ae62-000cbf82bb3f",
+            "SpriteId": "099b1298-a2f2-4e77-9a41-1e18674dfd43",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
@@ -54,7 +54,7 @@
             "visible": true
         }
     ],
-    "origin": 9,
+    "origin": 0,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -64,7 +64,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 96,
-    "xorig": 36,
-    "yorig": 29
+    "width": 128,
+    "xorig": 0,
+    "yorig": 0
 }

@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "099b1298-a2f2-4e77-9a41-1e18674dfd43",
+            "Value": {
+                "id": "f7d3b44d-923c-4c02-91fa-4164ea5abc9f",
+                "resourcePath": "sprites\\spr_building_aesthetics_walls\\spr_building_aesthetics_walls.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "109a5eb7-d20d-4b59-ae62-000cbf82bb3f",
             "Value": {
                 "id": "6124b1b5-9918-4690-b4d0-7fb8946d420b",
@@ -332,6 +340,14 @@
                 "id": "7102c7c1-edf3-422c-a3ae-0998a87cf92f",
                 "resourcePath": "objects\\obj_level\\obj_level.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d280ac6c-a5c6-4436-8ae7-cb60abc2e9c5",
+            "Value": {
+                "id": "9890d32e-91cf-480e-9b5e-b45995506030",
+                "resourcePath": "tilesets\\t_building_wall_aesthetic\\t_building_wall_aesthetic.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
