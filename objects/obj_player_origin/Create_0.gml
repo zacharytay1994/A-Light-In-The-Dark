@@ -1,4 +1,7 @@
 image_alpha = 0
+
+alarm_interval_ = 16
+
 move_h = false
 move_v = false
 x = (x div CELL_DIMENSION) * CELL_DIMENSION

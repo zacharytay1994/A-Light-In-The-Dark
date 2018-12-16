@@ -335,11 +335,27 @@
             }
         },
         {
+            "Key": "ab4c44e5-1e37-424c-833a-46efb28eb452",
+            "Value": {
+                "id": "68d4a74b-e874-49f4-af1a-899dba56a831",
+                "resourcePath": "sprites\\spr_ground\\spr_ground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ad84c176-1067-4b01-ac9b-5225a3a79c67",
             "Value": {
                 "id": "1a7451f5-2822-4f62-b3de-a18f01148938",
                 "resourcePath": "views\\ad84c176-1067-4b01-ac9b-5225a3a79c67.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b5c60e10-6859-4d9e-8d32-45448ee07f26",
+            "Value": {
+                "id": "9e9dc396-c355-43a8-8da0-23023df60c22",
+                "resourcePath": "tilesets\\t_ground\\t_ground.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {

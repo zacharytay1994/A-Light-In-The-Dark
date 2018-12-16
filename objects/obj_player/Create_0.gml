@@ -1,5 +1,5 @@
 image_speed = 0;
-speed_ = 3
+speed_ = 2
 
 move_h = false
 move_v = false

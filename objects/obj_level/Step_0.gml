@@ -3,7 +3,7 @@
 var _x = obj_player.x div CELL_DIMENSION
 var _y = obj_player.y div CELL_DIMENSION
 
-if (tilemap_get(floor_id_, _x, _y) == 1)
+if (tilemap_get(floor_id_, _x, _y) != 0)
 {
 	default_wall_ = 4
 	default_pillar_ = 19

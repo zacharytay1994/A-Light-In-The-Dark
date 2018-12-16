@@ -61,7 +61,7 @@ for(var yy=starty;yy<=endy;yy++)
 			surface_reset_target();
 			shader_set(sh_lighting)
 			shader_set_uniform_f( LightPosRadius, lx,ly,rad,0.0 );
-			draw_surface_ext(surf,0,0,1,1,0,c_yellow,0.2);
+			draw_surface_ext(surf,0,0,1,1,0,c_white,0.1);
 			shader_reset();
         }
     }

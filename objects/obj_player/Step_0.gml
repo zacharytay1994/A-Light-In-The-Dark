@@ -1,3 +1,13 @@
+// Run or Walk track
+if (keyboard_check(vk_shift))
+{
+	speed_ = 4
+}
+else
+{
+	speed_ = 2
+}
+
 if ((x < obj_player_origin.x + 19 && x > obj_player_origin.x + 13)
 && (y < obj_player_origin.y + 19 && y > obj_player_origin.y + 13))
 {
@@ -9,7 +19,7 @@ else
 {
 	image_speed = 0.6
 	move_towards_point(obj_player_origin.x + 16,
-	obj_player_origin.y + 16, 3)
+	obj_player_origin.y + 16, speed_)
 }
 
 var _x_input = keyboard_check(ord("D")) - keyboard_check(ord("A"))
