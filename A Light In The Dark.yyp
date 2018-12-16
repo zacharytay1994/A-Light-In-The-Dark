@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "106748de-e62b-4c48-a639-0366a7ee9079",
+            "Value": {
+                "id": "2ce9cd8c-4ae2-48da-b33f-a80cf96be393",
+                "resourcePath": "objects\\obj_test\\obj_test.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "109a5eb7-d20d-4b59-ae62-000cbf82bb3f",
             "Value": {
                 "id": "6124b1b5-9918-4690-b4d0-7fb8946d420b",
@@ -103,11 +111,27 @@
             }
         },
         {
+            "Key": "1e9249b5-fd0d-4414-a286-0553d25c752a",
+            "Value": {
+                "id": "63afcabe-34fc-4efc-961a-b0d6b0e0bf71",
+                "resourcePath": "objects\\obj_light\\obj_light.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2c7e2a15-d4ba-4e50-b2e7-0787c9689dcc",
             "Value": {
                 "id": "cc5485b1-462b-4a26-9b35-f8a666393202",
                 "resourcePath": "views\\2c7e2a15-d4ba-4e50-b2e7-0787c9689dcc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "30beb203-02f3-4f53-92aa-04cb71d5f81b",
+            "Value": {
+                "id": "bc0d1e94-b303-43b0-b9d9-7949a1b3e55b",
+                "resourcePath": "scripts\\ProjectShadow\\ProjectShadow.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -132,6 +156,14 @@
                 "id": "81db8c70-7bad-4d1e-8e28-193131b68a6e",
                 "resourcePath": "views\\3bcb0320-9bb1-489e-8bc8-960c0a01b261.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "40232c9c-dcbb-4820-841b-bd420588bd3e",
+            "Value": {
+                "id": "05ae2112-1fed-44d9-a8f8-27b907e2d366",
+                "resourcePath": "scripts\\SignTest\\SignTest.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -367,6 +399,14 @@
             }
         },
         {
+            "Key": "e22d086a-962f-4e20-9d80-d1cfc67833ab",
+            "Value": {
+                "id": "fa2d2ad5-3437-47a2-845f-3f4d7c2e50a9",
+                "resourcePath": "shaders\\sh_lighting\\sh_lighting.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "ead5bb0b-b2df-45fd-86b1-4c3df4de2e41",
             "Value": {
                 "id": "45e94872-312b-4142-93e4-98c7228c2360",
@@ -409,7 +449,9 @@
     ],
     "script_order": [
         "7e4fb511-f471-47f8-8d31-094ebe5400bb",
-        "1be1f7a4-5073-4432-ada6-4b7119ec7a38"
+        "1be1f7a4-5073-4432-ada6-4b7119ec7a38",
+        "30beb203-02f3-4f53-92aa-04cb71d5f81b",
+        "40232c9c-dcbb-4820-841b-bd420588bd3e"
     ],
     "tutorial": ""
 }
