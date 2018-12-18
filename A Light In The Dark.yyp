@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "01980d0f-1ba7-4e8c-8c72-e59c53ae676f",
+            "Value": {
+                "id": "7f741000-3861-4043-a70c-80663c8e3722",
+                "resourcePath": "sprites\\spr_door_one\\spr_door_one.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "035e6f34-0ec1-441d-a5a7-e996372d043e",
             "Value": {
                 "id": "0eff619e-5dfa-4b9d-bed9-adeadaf80fb0",
@@ -63,6 +71,14 @@
             }
         },
         {
+            "Key": "0c3d23d2-7c8e-4faa-b903-c9871c465e0f",
+            "Value": {
+                "id": "0fd90e1a-41b8-4dbf-8809-3e1127c09c0c",
+                "resourcePath": "views\\0c3d23d2-7c8e-4faa-b903-c9871c465e0f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "106748de-e62b-4c48-a639-0366a7ee9079",
             "Value": {
                 "id": "2ce9cd8c-4ae2-48da-b33f-a80cf96be393",
@@ -75,6 +91,14 @@
             "Value": {
                 "id": "6124b1b5-9918-4690-b4d0-7fb8946d420b",
                 "resourcePath": "sprites\\spr_carpark_walls\\spr_carpark_walls.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1557938d-1ff0-4c39-8f5e-a33069395cfc",
+            "Value": {
+                "id": "788f6000-54b2-4db8-901a-c18871521f7d",
+                "resourcePath": "sprites\\spr_light_surface\\spr_light_surface.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -163,6 +187,22 @@
             "Value": {
                 "id": "81db8c70-7bad-4d1e-8e28-193131b68a6e",
                 "resourcePath": "views\\3bcb0320-9bb1-489e-8bc8-960c0a01b261.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3c6c6195-7f3e-47fa-bbb2-76ad44ba838e",
+            "Value": {
+                "id": "1bfad2c8-6f1b-4d56-a35d-630c37684770",
+                "resourcePath": "objects\\obj_light_surface\\obj_light_surface.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3e30bb10-a7d0-459e-8f3d-0f2fa7a944e6",
+            "Value": {
+                "id": "5ca86ac3-301c-4410-8daa-6b34f00907d1",
+                "resourcePath": "views\\3e30bb10-a7d0-459e-8f3d-0f2fa7a944e6.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -279,6 +319,22 @@
             }
         },
         {
+            "Key": "712f9449-3491-4cb6-aa2f-6a2f52a46dca",
+            "Value": {
+                "id": "1cfb35d5-4b3d-444f-aa90-6a71b4cd20d9",
+                "resourcePath": "sprites\\spr_light_point\\spr_light_point.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "76f10f12-bf4b-4cc9-bb6a-f1fea8c37a23",
+            "Value": {
+                "id": "dd832d76-28cd-4add-b2a9-06e130f8e632",
+                "resourcePath": "views\\76f10f12-bf4b-4cc9-bb6a-f1fea8c37a23.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "79f0362e-ac7c-4de8-a1c0-0e6e0e1989b6",
             "Value": {
                 "id": "7ef7fa9c-7919-4386-814b-ef6ed591a22f",
@@ -386,7 +442,7 @@
             "Key": "a5aa0af5-83e2-4e16-b4da-67764b46de39",
             "Value": {
                 "id": "42b34842-a723-428a-807d-46e82a2eb47c",
-                "resourcePath": "objects\\obj_test_light\\obj_test_light.yy",
+                "resourcePath": "objects\\obj_light_post\\obj_light_post.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -423,6 +479,22 @@
             }
         },
         {
+            "Key": "baa61091-6932-46e7-9e94-f0fff57be597",
+            "Value": {
+                "id": "84727199-20e8-4a20-92cb-90d4b614ed60",
+                "resourcePath": "sprites\\spr_door\\spr_door.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c5bed524-ea2d-414b-b43c-812283089a93",
+            "Value": {
+                "id": "ca7eccb8-23b6-4dd6-9669-f3cb3beb9820",
+                "resourcePath": "objects\\obj_door_one\\obj_door_one.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c9095dce-f2b3-4b97-b5da-3a342d1f24f1",
             "Value": {
                 "id": "a2bc9b4c-449c-4673-9645-7dcb483958ac",
@@ -444,6 +516,14 @@
                 "id": "7102c7c1-edf3-422c-a3ae-0998a87cf92f",
                 "resourcePath": "objects\\obj_level\\obj_level.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cea1425c-38a3-42c6-9136-a1b6c8aac0d8",
+            "Value": {
+                "id": "b8fdf24d-58a1-4d48-8cf6-9d4fd7326f64",
+                "resourcePath": "tilesets\\t_doors\\t_doors.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -498,7 +578,7 @@
             "Key": "ebe7698a-08d5-47e4-a362-4529a1698f5a",
             "Value": {
                 "id": "c4294b6f-ab2d-49d2-aa09-be0cec0af663",
-                "resourcePath": "objects\\obj_carpark_lightpost\\obj_carpark_lightpost.yy",
+                "resourcePath": "objects\\obj_light_point\\obj_light_point.yy",
                 "resourceType": "GMObject"
             }
         },

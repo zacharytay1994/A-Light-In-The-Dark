@@ -1,11 +1,11 @@
 // Run or Walk track
 if (keyboard_check(vk_shift))
 {
-	speed_ = 4
+	speed_ = 8
 }
 else
 {
-	speed_ = 2
+	speed_ = 4
 }
 
 if ((x < obj_player_origin.x + 19 && x > obj_player_origin.x + 13)

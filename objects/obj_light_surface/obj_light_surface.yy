@@ -1,23 +1,14 @@
 {
-    "id": "ebe7698a-08d5-47e4-a362-4529a1698f5a",
+    "id": "3c6c6195-7f3e-47fa-bbb2-76ad44ba838e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_carpark_lightpost",
+    "name": "obj_light_surface",
     "eventList": [
-        {
-            "id": "544f867e-f5df-42f0-828e-6f3c9cd087ed",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "ebe7698a-08d5-47e4-a362-4529a1698f5a"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "1e9249b5-fd0d-4414-a286-0553d25c752a",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "7daf635c-aaa4-463c-81fc-08a223a3da09",
+    "spriteId": "1557938d-1ff0-4c39-8f5e-a33069395cfc",
     "visible": true
 }

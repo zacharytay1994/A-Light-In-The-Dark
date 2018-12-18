@@ -11,3 +11,8 @@ surf = -1
 LightPosRadius = shader_get_uniform(sh_lighting,"u_fLightPositionRadius");
 
 target_ = obj_player
+
+tilemap_ = layer_tilemap_get_id("BuildingWalls");
+tilemap_doors_ = layer_tilemap_get_id("Doors");
+
+lights_on_ = true

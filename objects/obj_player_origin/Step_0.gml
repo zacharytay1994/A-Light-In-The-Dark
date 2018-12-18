@@ -6,11 +6,11 @@ var _y = y div CELL_DIMENSION
 // Run or Walk check
 if (keyboard_check(vk_shift))
 {
-	alarm_interval_ = 8
+	alarm_interval_ = 4
 }
 else
 {
-	alarm_interval_ = 16
+	alarm_interval_ = 8
 }
 
 // Move in direction

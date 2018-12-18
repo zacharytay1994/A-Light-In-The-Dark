@@ -52,3 +52,4 @@ for (var _y = 1; _y < height_-1; _y++)
 }
 
 // Defining Params
+//instance_deactivate_object(obj_light_point)
