@@ -1,6 +1,7 @@
 /// Creating room
 randomize()
 
+
 // Easy change variables
 var _player_start_x = 50
 var _player_start_y = 80

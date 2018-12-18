@@ -6,8 +6,8 @@ if not instance_exists(target_) exit
 switch target_.camera_state_
 {
 	case 0:
-		x = lerp(x, target_.x, .01)
-		y = lerp(y, target_.y, .01)
+		x = lerp(x, target_.x, .02)
+		y = lerp(y, target_.y, .02)
 		break
 	case 1:
 		x = lerp(x, _right_cam_x, camera_speed_)

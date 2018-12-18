@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "329021c3-81ec-42f1-9e83-b1e5d5eef4ee",
+            "Value": {
+                "id": "ea6ca570-a38e-465f-ad5c-54f35e7d92f4",
+                "resourcePath": "scripts\\s_light_begin\\s_light_begin.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "336f582a-1309-4a0a-b4de-f8a9dfdb1942",
             "Value": {
                 "id": "b63109f1-a8d6-4d69-af76-409ec333ff27",
@@ -172,6 +180,14 @@
                 "id": "a3f43d92-49fd-484e-bcff-d36493697e0b",
                 "resourcePath": "tilesets\\t_carpark_wall\\t_carpark_wall.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "4745ff58-c97c-4f51-b6ae-9726c8053c41",
+            "Value": {
+                "id": "8d1050b0-ea4c-49d1-b2d1-b8bca5757b43",
+                "resourcePath": "scripts\\s_light_end\\s_light_end.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -247,6 +263,14 @@
             }
         },
         {
+            "Key": "676c01c5-c23f-47a3-9e81-a68bfcbee094",
+            "Value": {
+                "id": "2f9b975e-f463-45b1-a63c-18d5fc52425d",
+                "resourcePath": "objects\\obj_lightblend\\obj_lightblend.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6b70fe14-502e-45be-8a01-ed75cb5dbcbb",
             "Value": {
                 "id": "94cfbe27-c385-4383-8539-b48cc9a331f4",
@@ -260,6 +284,22 @@
                 "id": "7ef7fa9c-7919-4386-814b-ef6ed591a22f",
                 "resourcePath": "views\\79f0362e-ac7c-4de8-a1c0-0e6e0e1989b6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7d278b3d-f8d0-43dc-af2c-8cbac44b5206",
+            "Value": {
+                "id": "ce3da46e-c884-4ab6-8701-d86a70aaed7e",
+                "resourcePath": "views\\7d278b3d-f8d0-43dc-af2c-8cbac44b5206.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7daf635c-aaa4-463c-81fc-08a223a3da09",
+            "Value": {
+                "id": "b4bd00d2-6eae-4774-94ad-6c3fa9a6d5bd",
+                "resourcePath": "sprites\\spr_carpark_lightpost\\spr_carpark_lightpost.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -283,6 +323,14 @@
             "Value": {
                 "id": "0c0534e0-ebc6-42bd-8365-a2acabb24f45",
                 "resourcePath": "views\\84d46d10-dd53-4058-b80d-3b8a099ac989.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "873f4317-d27e-44cf-8e80-ccf4fe55c94a",
+            "Value": {
+                "id": "9006cbfe-3914-47f9-b381-118c18060ab3",
+                "resourcePath": "views\\873f4317-d27e-44cf-8e80-ccf4fe55c94a.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -439,6 +487,14 @@
             }
         },
         {
+            "Key": "ebe7698a-08d5-47e4-a362-4529a1698f5a",
+            "Value": {
+                "id": "c4294b6f-ab2d-49d2-aa09-be0cec0af663",
+                "resourcePath": "objects\\obj_carpark_lightpost\\obj_carpark_lightpost.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ed31c834-9994-41fc-b781-1170a9d72a51",
             "Value": {
                 "id": "8aa6a5b5-64e1-4b57-b676-ad08f62e4512",
@@ -467,7 +523,9 @@
         "7e4fb511-f471-47f8-8d31-094ebe5400bb",
         "1be1f7a4-5073-4432-ada6-4b7119ec7a38",
         "30beb203-02f3-4f53-92aa-04cb71d5f81b",
-        "40232c9c-dcbb-4820-841b-bd420588bd3e"
+        "40232c9c-dcbb-4820-841b-bd420588bd3e",
+        "329021c3-81ec-42f1-9e83-b1e5d5eef4ee",
+        "4745ff58-c97c-4f51-b6ae-9726c8053c41"
     ],
     "tutorial": ""
 }

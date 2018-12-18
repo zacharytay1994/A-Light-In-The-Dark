@@ -2,8 +2,8 @@ if( !surface_exists(surf) ){
     surf = surface_create(room_width,room_height);
 }
 
-var lx = obj_player.x;       // the light position, based around the mouse location
-var ly = obj_player.y;
+var lx = target_.x;       // the light position, based around the mouse location
+var ly = target_.y;
 var rad = 256           // the radius of the light
 var tile_size = 32;     // size of a tile
 var tilemap = layer_tilemap_get_id("BuildingWalls");

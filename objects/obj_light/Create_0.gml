@@ -9,3 +9,5 @@ VBuffer = vertex_create_buffer();
 surf = -1
 
 LightPosRadius = shader_get_uniform(sh_lighting,"u_fLightPositionRadius");
+
+target_ = obj_player
