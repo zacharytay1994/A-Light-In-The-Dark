@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-var _x = obj_player.x div CELL_DIMENSION
-var _y = obj_player.y div CELL_DIMENSION
+var _x = target_.x div CELL_DIMENSION
+var _y = target_.y div CELL_DIMENSION
 
 if (tilemap_get(floor_id_, _x, _y) != 0)
 {

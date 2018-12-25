@@ -9,7 +9,7 @@ var _player_start_y = 80
 building_visible_ = 6
 building_visible_clear_ = building_visible_ + 1
 
-target_ = obj_player
+target_ = obj_player_body
 
 in_building_bool_ = false
 default_wall_ = 1
@@ -38,7 +38,9 @@ var _controller_y = 48
 instance_create_layer(_player_start_x * CELL_DIMENSION,
 _player_start_y * CELL_DIMENSION, "Instances", obj_player_origin)
 instance_create_layer(_player_start_x * CELL_DIMENSION + 31,
-_player_start_y * CELL_DIMENSION + 56, "Instances", obj_player)
+_player_start_y * CELL_DIMENSION + 56, "PlayerBody", obj_player_body)
+instance_create_layer(_player_start_x * CELL_DIMENSION + 31,
+_player_start_y * CELL_DIMENSION + 56, "PlayerHead", obj_player_head)
 
 for (var _y = 1; _y < height_-1; _y++)
 {

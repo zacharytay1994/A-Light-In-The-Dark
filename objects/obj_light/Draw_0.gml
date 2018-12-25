@@ -5,14 +5,14 @@ if (lights_on_)
 	}
 
 	var lx = target_.x;       // the light position
-	var ly = target_.y;
-	var rad = 256           // the radius of the light
+	var ly = target_.y - 10;
+	var rad = 256          // the radius of the light
 	var tile_size = 32;     // size of a tile
 
-	var startx = floor((lx-rad-256)/tile_size);
-	var endx = floor((lx+rad+256)/tile_size);
-	var starty = floor((ly-rad-256)/tile_size);
-	var endy = floor((ly+rad+256)/tile_size);
+	var startx = floor((lx-(rad*2))/tile_size);
+	var endx = floor((lx+(rad*2))/tile_size);
+	var starty = floor((ly-(rad*2))/tile_size);
+	var endy = floor((ly+(rad*2))/tile_size);
 
 	//draw_set_color(c_yellow);
 	//draw_rectangle(startx*tile_size,starty*tile_size,
@@ -24,9 +24,10 @@ if (lights_on_)
 	    {
 	        var tile = tilemap_get(tilemap_,xx,yy);
 			var tile_door = tilemap_get(tilemap_doors_, xx, yy);
-	        if( tile!=0 || tile_door!=0){
+			var tile_shadow = tilemap_get(tilemap_shadow_, xx, yy);
+	        if( tile!=0 || tile_door!=0 || tile_shadow!=0 ){
 				surface_set_target(surf);
-				draw_clear_alpha(0,0)
+				draw_clear_alpha(c_black,0)
 			
 				vertex_begin(VBuffer, VertexFormat);
 				for(var yy=starty;yy<=endy;yy++)
@@ -35,7 +36,8 @@ if (lights_on_)
 				    {
 				        var tile = tilemap_get(tilemap_,xx,yy);
 						var tile_door = tilemap_get(tilemap_doors_, xx, yy);
-				        if( tile!=0 || tile_door!=0 )
+						var tile_shadow = tilemap_get(tilemap_shadow_, xx, yy);
+				        if( tile!=0 || tile_door!=0 || tile_shadow!=0 )
 				        {
 				            // get corners of the 
 				            var px1 = xx*tile_size;     // top left
@@ -63,7 +65,7 @@ if (lights_on_)
 				surface_reset_target();
 				shader_set(sh_lighting)
 				shader_set_uniform_f( LightPosRadius, lx,ly,rad,0.0 );
-				draw_surface_ext(surf,0,0,1,1,0,c_white,0.1);
+				draw_surface_ext(surf,0,0,1,1,0,c_white,0.6);
 				shader_reset();
 	        }
 	    }
