@@ -17,7 +17,7 @@
         "719cfca9-43a2-4cbf-b516-f6062a14ecc9"
     ],
     "filterType": "GMSprite",
-    "folderName": "Player",
+    "folderName": "Player Sprites",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

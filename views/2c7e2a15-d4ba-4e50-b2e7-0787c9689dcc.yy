@@ -10,7 +10,7 @@
         "ead5bb0b-b2df-45fd-86b1-4c3df4de2e41"
     ],
     "filterType": "GMObject",
-    "folderName": "Player",
+    "folderName": "Player Objects",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

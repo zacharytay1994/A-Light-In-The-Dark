@@ -8,7 +8,7 @@
         "ab4c44e5-1e37-424c-833a-46efb28eb452"
     ],
     "filterType": "GMSprite",
-    "folderName": "Floor",
+    "folderName": "Floor Sprites",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

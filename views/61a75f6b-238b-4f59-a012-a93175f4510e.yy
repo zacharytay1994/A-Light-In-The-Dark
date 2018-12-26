@@ -9,7 +9,7 @@
         "099b1298-a2f2-4e77-9a41-1e18674dfd43"
     ],
     "filterType": "GMSprite",
-    "folderName": "Walls",
+    "folderName": "Walls Sprites",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
