@@ -1,0 +1,1 @@
+obj_monster_one.alarm[0] = 1

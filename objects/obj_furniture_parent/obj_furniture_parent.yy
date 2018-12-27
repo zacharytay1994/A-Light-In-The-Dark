@@ -5,13 +5,13 @@
     "name": "obj_furniture_parent",
     "eventList": [
         {
-            "id": "9eef3d88-c7dd-471f-835a-3e1c818f544f",
+            "id": "2ecf48d4-8d60-466a-ad47-5730cfcc940a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
+            "eventtype": 0,
             "m_owner": "79c4f12b-0508-432c-a791-7e5c0eb70cf3"
         }
     ],

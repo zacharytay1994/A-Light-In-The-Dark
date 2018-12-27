@@ -3,3 +3,5 @@
 #macro VOID -7
 #macro SOLID -8
 #macro PATH -9
+
+#macro DEPTH 1200

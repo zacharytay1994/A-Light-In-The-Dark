@@ -1,4 +1,4 @@
-//depth = 1000 - y div CELL_DIMENSION
+depth = DEPTH - (y-32) div CELL_DIMENSION
 
 // Run or Walk track
 if (keyboard_check(vk_shift))
@@ -11,7 +11,7 @@ else
 }
 
 if ((x < obj_player_origin.x + 22 && x > obj_player_origin.x + 10)
-&& (y < obj_player_origin.y + 38 && y > obj_player_origin.y + 26))
+&& (y < obj_player_origin.y + 22 && y > obj_player_origin.y + 10))
 {
 	image_index = 0
 	image_speed = 0
@@ -21,7 +21,7 @@ else
 {
 	image_speed = 0.6
 	move_towards_point(obj_player_origin.x + 16,
-	obj_player_origin.y + 32, speed_)
+	obj_player_origin.y + 16, speed_)
 }
 
 var _x_input = keyboard_check(ord("D")) - keyboard_check(ord("A"))

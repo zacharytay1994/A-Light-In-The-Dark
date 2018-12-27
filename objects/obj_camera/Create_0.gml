@@ -3,4 +3,6 @@ width_ = camera_get_view_width(view_camera[0])
 height_ = camera_get_view_height(view_camera[0])
 camera_speed_ = .04
 camera_offset_v = 250
-camera_offset_h = 350 
+camera_offset_h = 350
+x = obj_player_body.x
+y = obj_player_body.y + 200

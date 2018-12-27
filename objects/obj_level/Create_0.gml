@@ -39,8 +39,8 @@ instance_create_layer(_player_start_x * CELL_DIMENSION,
 _player_start_y * CELL_DIMENSION, "Instances", obj_player_origin)
 instance_create_layer(_player_start_x * CELL_DIMENSION + 31,
 _player_start_y * CELL_DIMENSION + 56, "PlayerBody", obj_player_body)
-instance_create_layer(_player_start_x * CELL_DIMENSION + 31,
-_player_start_y * CELL_DIMENSION + 56, "PlayerHead", obj_player_head)
+//instance_create_layer(_player_start_x * CELL_DIMENSION + 31,
+//_player_start_y * CELL_DIMENSION + 56, "PlayerHead", obj_player_head)
 
 for (var _y = 1; _y < height_-1; _y++)
 {

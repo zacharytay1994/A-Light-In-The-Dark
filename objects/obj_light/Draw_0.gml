@@ -22,10 +22,10 @@ if (lights_on_)
 	{
 	    for(var xx=startx;xx<=endx;xx++)
 	    {
-	        var tile = tilemap_get(tilemap_,xx,yy);
-			var tile_door = tilemap_get(tilemap_doors_, xx, yy);
+	        //var tile = tilemap_get(tilemap_,xx,yy);
+			//var tile_door = tilemap_get(tilemap_doors_, xx, yy);
 			var tile_shadow = tilemap_get(tilemap_shadow_, xx, yy);
-	        if( tile!=0 || tile_door!=0 || tile_shadow!=0 ){
+	        if( tile_shadow!=0 ){
 				surface_set_target(surf);
 				draw_clear_alpha(c_black,0)
 			
@@ -34,28 +34,39 @@ if (lights_on_)
 				{
 				    for(var xx=startx;xx<=endx;xx++)
 				    {
-				        var tile = tilemap_get(tilemap_,xx,yy);
-						var tile_door = tilemap_get(tilemap_doors_, xx, yy);
+				        //var tile = tilemap_get(tilemap_,xx,yy);
 						var tile_shadow = tilemap_get(tilemap_shadow_, xx, yy);
-				        if( tile!=0 || tile_door!=0 || tile_shadow!=0 )
+				        if( tile_shadow!=0 )
 				        {
 				            // get corners of the 
 				            var px1 = xx*tile_size;     // top left
 				            var py1 = yy*tile_size;
 				            var px2 = px1+tile_size;    // bottom right
 				            var py2 = py1+tile_size;
-						
-				            if( !SignTest( px1,py1, px2,py1, lx,ly) ){
-								ProjectShadow(VBuffer,  px1,py1, px2,py1, lx,ly );
+							
+				            if( SignTest( px1,py1, px2,py1, lx,ly) ){
+								if tilemap_get(tilemap_shadow_,xx,yy-1) == 0
+								{
+									ProjectShadow(VBuffer,  px1,py1, px2,py1, lx,ly );
+								}
 						    }
-						    if( !SignTest( px2,py1, px2,py2, lx,ly) ){
-						        ProjectShadow(VBuffer,  px2,py1, px2,py2, lx,ly );
+						    if( SignTest( px2,py1, px2,py2, lx,ly) ){
+								if tilemap_get(tilemap_shadow_,xx+1,yy) == 0
+								{
+									ProjectShadow(VBuffer,  px2,py1, px2,py2, lx,ly );
+								}
 						    }
-						    if( !SignTest( px2,py2, px1,py2, lx,ly) ){
-						        ProjectShadow(VBuffer,  px2,py2, px1,py2, lx,ly );
+						    if( SignTest( px2,py2, px1,py2, lx,ly) ){
+								if tilemap_get(tilemap_shadow_,xx,yy+1) == 0
+								{
+									ProjectShadow(VBuffer,  px2,py2, px1,py2, lx,ly );
+								}
 						    }
-						    if( !SignTest( px1,py2, px1,py1, lx,ly) ){
-								ProjectShadow(VBuffer,  px1,py2, px1,py1, lx,ly );
+						    if( SignTest( px1,py2, px1,py1, lx,ly) ){
+								if tilemap_get(tilemap_shadow_,xx-1,yy) == 0
+								{
+									ProjectShadow(VBuffer,  px1,py2, px1,py1, lx,ly );
+								}
 							}
 				        }
 				    }
@@ -65,7 +76,7 @@ if (lights_on_)
 				surface_reset_target();
 				shader_set(sh_lighting)
 				shader_set_uniform_f( LightPosRadius, lx,ly,rad,0.0 );
-				draw_surface_ext(surf,0,0,1,1,0,c_white,0.6);
+				draw_surface_ext(surf,0,0,1,1,0,c_white,0.8);
 				shader_reset();
 	        }
 	    }
