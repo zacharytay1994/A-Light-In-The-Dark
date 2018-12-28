@@ -1,6 +1,7 @@
 event_inherited()
 
 path_ = path_add()
+path_set_kind(path_, 0)
 tilemap_control_check_ = layer_tilemap_get_id("ControlCheck")
 tilemap_control_rmPos_ = layer_tilemap_get_id("RoomPosition")
 alarm[0] = room_speed
@@ -23,6 +24,7 @@ switch_dest_ = 0
 // Monster One States
 enum states
 {
+	idle,
 	play,
 	looking,
 	stalking,
@@ -30,3 +32,7 @@ enum states
 }
 
 state_ = states.play
+moving_ = false
+
+prev_x_ = 0
+prev_y_ = 0
