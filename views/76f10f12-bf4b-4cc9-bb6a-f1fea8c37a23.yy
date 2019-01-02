@@ -6,7 +6,8 @@
     "children": [
         "712f9449-3491-4cb6-aa2f-6a2f52a46dca",
         "1557938d-1ff0-4c39-8f5e-a33069395cfc",
-        "2735bea9-a47c-427b-aaff-fa9b5b770c01"
+        "2735bea9-a47c-427b-aaff-fa9b5b770c01",
+        "bc3c63c1-8e26-4a71-977e-3b1de756fe58"
     ],
     "filterType": "GMSprite",
     "folderName": "Light Sprites",

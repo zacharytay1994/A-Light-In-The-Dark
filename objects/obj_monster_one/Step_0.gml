@@ -13,7 +13,7 @@ switch state_
 				_rand = irandom(5)
 			}
 			s_creature_path_to_point(coords_array_[_rand, 0]*CELL_DIMENSION
-			, coords_array_[_rand, 1]*CELL_DIMENSION, path_, 4)
+			, coords_array_[_rand, 1]*CELL_DIMENSION, path_, 4, false)
 			image_speed = 0.6
 			
 			prev_x_ = coords_array_[_rand, 0]
@@ -31,7 +31,7 @@ switch state_
 			if (xx != prev_x_ || yy != prev_y_)
 			{
 				s_creature_path_to_point(obj_player_body.x, obj_player_body.y,
-				path_, 4)
+				path_, 4, false)
 				image_speed = 0.6
 				
 				prev_x_ = xx
