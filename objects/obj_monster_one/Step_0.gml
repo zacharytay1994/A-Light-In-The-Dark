@@ -24,7 +24,7 @@ switch state_
 	break
 	case states.chasing:
 		if !moving_
-		&& point_distance(x, y, obj_player_body.x, obj_player_body.y) < 128
+		&& point_distance(x, y, obj_player_body.x, obj_player_body.y) div CELL_DIMENSION <= 4
 		{
 			var xx = obj_player_body.x div CELL_DIMENSION
 			var yy = obj_player_body.y div CELL_DIMENSION
@@ -41,7 +41,7 @@ switch state_
 			}		
 		}
 		else if !moving_
-		&& point_distance(x, y, obj_player_body.x, obj_player_body.y) >= 128
+		&& point_distance(x, y, obj_player_body.x, obj_player_body.y) div CELL_DIMENSION > 5
 		{
 			moving_ = false
 			state_ = states.play

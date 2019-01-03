@@ -16,4 +16,6 @@ tilemap_ = layer_tilemap_get_id("BuildingWalls");
 tilemap_doors_ = layer_tilemap_get_id("Doors");
 tilemap_shadow_ = layer_tilemap_get_id("ShadowCollision");
 
-lights_on_ = true
+lights_on_ = false
+color_ = c_white
+intensity_ = 0.8

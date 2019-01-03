@@ -76,7 +76,7 @@ if (lights_on_)
 				surface_reset_target();
 				shader_set(sh_lighting)
 				shader_set_uniform_f( LightPosRadius, lx,ly,rad,0.0 );
-				draw_surface_ext(surf,0,0,1,1,0,c_white,0.8);
+				draw_surface_ext(surf,0,0,1,1,0,color_,intensity_);
 				shader_reset();
 	        }
 	    }

@@ -7,7 +7,8 @@
         "b70d27e2-1007-4bc3-921b-d9c82c4a1280",
         "fc12d1c4-dcad-4d54-b5a6-0d3bf4ebe886",
         "a66f01d6-d0fb-4002-b003-904fffbd6502",
-        "ead5bb0b-b2df-45fd-86b1-4c3df4de2e41"
+        "ead5bb0b-b2df-45fd-86b1-4c3df4de2e41",
+        "904f65b1-bc0b-4582-bc23-73271b68f22d"
     ],
     "filterType": "GMObject",
     "folderName": "Player Objects",
